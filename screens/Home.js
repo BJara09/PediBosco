@@ -3,7 +3,7 @@ import React from "react";
 import HeaderTabs from "../components/HeaderTabs";
 import SearchBar from "../components/SearchBar";
 import Categories from "../components/Categories";
-import CafeteriaItem from "../components/CafeteriaItems";
+import CafeteriaItems from "../components/CafeteriaItems";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       </View>
       <ScrollView showsHorizontalScrollIndicator={false}>
         <Categories />
-        <CafeteriaItem />
+        <CafeteriaItems />
       </ScrollView>
     </SafeAreaView>
   );
