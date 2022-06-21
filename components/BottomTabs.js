@@ -4,7 +4,9 @@ import React from "react";
 export default function BottomTabs() {
   return (
     <View>
-      <Text>BottomTabs</Text>
+      <BottomTabsText />
     </View>
   );
 }
+
+const BottomTabsText = () => <Text>Hola</Text>;
