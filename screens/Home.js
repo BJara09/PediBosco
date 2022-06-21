@@ -14,11 +14,7 @@ export default function Home() {
       </View>
       <ScrollView showsHorizontalScrollIndicator={false}>
         <Categories />
-        <CafeteriaItem
-          name="Soda DonK"
-          place="Nos ubicamos a un costado de las cancha"
-          imguri="https://th.bing.com/th/id/OIP.x_bLp2JXWP8HVFl2iyGe4QHaEK?pid=ImgDet&rs=1"
-        />
+        <CafeteriaItem />
       </ScrollView>
     </SafeAreaView>
   );

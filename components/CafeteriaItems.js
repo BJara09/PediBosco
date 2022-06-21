@@ -23,8 +23,7 @@ const sodas = [
   },
 ];
 
-export default function CafeteriaItem(props) {
-  console.log(props);
+export default function CafeteriaItem() {
   return (
     <TouchableOpacity activeOpacity={0.9} style={{ marginBottom: 10 }}>
       {sodas.map((soda, index) => (
@@ -50,7 +49,7 @@ const CafeteriaImage = (props) => {
         style={{
           width: "100%",
           height: 180,
-          opacity: 0.8,
+          /*opacity: 0.8,*/
           borderRadius: 15,
         }}
       />
