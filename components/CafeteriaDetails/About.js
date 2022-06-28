@@ -1,0 +1,56 @@
+import { View, Text, Image } from "react-native";
+import React from "react";
+
+const image =
+  "https://th.bing.com/th/id/OIP.x_bLp2JXWP8HVFl2iyGe4QHaEK?pid=ImgDet&rs=1";
+const title = "Soda DonK";
+const description = "Rápido · Chifrijo · Batidos";
+
+export default function About() {
+  return (
+    <View>
+      <CafeteriaImage image={image} />
+      <CafeteriaTitle title={title} />
+          <CafeteriaDescription description={description} />
+    </View>
+  );
+}
+
+const CafeteriaImage = (props) => {
+    return (
+        <Image
+            source={{ uri: props.image }}
+            style={{ width: "100%", height: 180 }}
+        />
+    );
+};
+
+const CafeteriaTitle = (props) => {
+    return (
+  <Text
+    style={{
+      fontSize: 30,
+      fontWeight: "600",
+      marginTop: 10,
+      marginHorizontal: 15,
+    }}
+  >
+    {props.title}
+  </Text>
+    )
+};
+
+const CafeteriaDescription = (props) => {
+  return (
+    <Text
+      style={{
+        fontSize: 15.5,
+        fontWeight: "400",
+        marginTop: 10,
+        marginHorizontal: 15,
+      }}
+    >
+      {props.description}
+    </Text>
+  );
+};
