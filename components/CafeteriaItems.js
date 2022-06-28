@@ -2,7 +2,7 @@ import { View, Text, Image, TouchableOpacity } from "react-native";
 import React from "react";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
-const sodas = [
+export const sodas = [
   {
     name: "Soda DonK",
     place: "Nos ubicamos a un costado de las canchas",

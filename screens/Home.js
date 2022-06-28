@@ -5,6 +5,7 @@ import SearchBar from "../components/SearchBar";
 import Categories from "../components/Categories";
 import CafeteriaItems from "../components/CafeteriaItems";
 import BottomTabs from "../components/BottomTabs";
+import { Divider } from "react-native-elements";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Categories />
         <CafeteriaItems />
       </ScrollView>
+      <Divider width={1} />
       <BottomTabs />
     </SafeAreaView>
   );

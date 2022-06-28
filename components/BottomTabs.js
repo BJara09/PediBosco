@@ -1,30 +1,33 @@
 import { View, Text } from "react-native";
 import React from "react";
-import EvilIcons from "react-native-vector-icons/EvilIcons";
+import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
 
 export default function BottomTabs() {
   return (
     <View
       style={{
-        height: 70,
-        backgroundColor: "white",
-        justifyContent: "space-around",
+        margin: 10,
+        marginHorizontal: 30,
+        justifyContent: "space-between",
         flexDirection: "row",
-        alignSelf: "center",
       }}
     >
-      <BottomTabsItems name="Browse" iconName="search" />
-      <BottomTabsItems name="Home" iconName="gear" />
-      <BottomTabsItems name="Account" iconName="user" />
-      <BottomTabsItems name="Pepe" iconName="star" />
-      <BottomTabsItems name="Lyis" iconName="tag" />
+      <BottomTabsItems text="Inicio" iconName="home" />
+      <BottomTabsItems text="Buscar" iconName="search" />
+      <BottomTabsItems text="Compras" iconName="shopping-bag" />
+      <BottomTabsItems text="Ordenes" iconName="receipt" />
+      <BottomTabsItems text="Cuenta" iconName="user" />
     </View>
   );
 }
 
 const BottomTabsItems = (props) => (
-  <View style={{ padding: 15, justifyContent: "center", alignItems: "center" }}>
-    <EvilIcons name={props.iconName} size={25} color="#000" />
-    <Text>{props.name}</Text>
+  <View>
+    <FontAwesome5
+      name={props.iconName}
+      size={20}
+      style={{ marginBottom: 3, alignSelf: "center" }}
+    />
+    <Text>{props.text}</Text>
   </View>
 );
