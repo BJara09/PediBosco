@@ -1,16 +1,22 @@
 import { View, Text, Image } from "react-native";
 import React from "react";
 
-const image =
-  "https://th.bing.com/th/id/OIP.x_bLp2JXWP8HVFl2iyGe4QHaEK?pid=ImgDet&rs=1";
-const title = "Soda DonK";
-const description = "Rápido · Chifrijo · Batidos";
+const CafeteriaInfo = {
+  name: "Soda DonK",
+  description: "Rápido · Chifrijo · Batidos",
+  image:
+    "https://th.bing.com/th/id/OIP.x_bLp2JXWP8HVFl2iyGe4QHaEK?pid=ImgDet&rs=1",
+};
+
+const { name, description, image } = CafeteriaInfo;
+
+
 
 export default function About() {
   return (
     <View>
       <CafeteriaImage image={image} />
-      <CafeteriaTitle title={title} />
+      <CafeteriaTitle name={name} />
           <CafeteriaDescription description={description} />
     </View>
   );

@@ -2,7 +2,6 @@ import { View, Text, Image, TouchableOpacity } from "react-native";
 import React from "react";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
-
 export const sodas = [
   {
     name: "Soda DonK",
@@ -26,7 +25,7 @@ export const sodas = [
 
 export default function CafeteriaItem() {
   return (
-    <TouchableOpacity activeOpacity={0.9} style={{ marginBottom: 10 }}>
+    <TouchableOpacity activeOpacity={1} style={{ marginBottom: 10 }}>
       {sodas.map((soda, index) => (
         <View
           key={index}

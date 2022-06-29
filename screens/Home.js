@@ -16,7 +16,10 @@ export default function Home() {
       </View>
       <ScrollView showsHorizontalScrollIndicator={false}>
         <Categories />
-        <CafeteriaItems />
+        <CafeteriaItems
+          restaurantData={restaurantData}
+          navigation={naavigation}
+        />
       </ScrollView>
       <Divider width={1} />
       <BottomTabs />
