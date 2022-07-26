@@ -3,6 +3,7 @@ import React, { useState } from "react";
 
 export default function HeaderTabs() {
   const [activeTab, setActivetab] = useState("Comprar");
+
   return (
     <View style={{ flexDirection: "row", alignSelf: "center" }}>
       <HeaderButton

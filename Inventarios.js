@@ -186,22 +186,26 @@ const Inventario = [
   {
     title: "Barrita, Poder",
     price: "CRC 300",
+    image:
+      "https://th.bing.com/th/id/R.4de15d0fe91aff0e722e28ffd23ba997?rik=t3L3hICXGBbE0g&pid=ImgRaw&r=0",
   },
   {
     title: "Barrita frutal, manzana y te verde",
     price: "CRC 300",
+    image:
+      "https://proximercado.com/wp-content/uploads/2020/06/7441001002625-1000x1000.jpg",
   },
   {
     title: "Barra frutal, citricas",
     price: "CRC 300",
+    image:
+      "https://superviquez.com/image/cache/catalog/Productos/7441001002830-270x270.png",
   },
   {
     title: "Barra frutal, banano y piña",
     price: "CRC 300",
-  },
-  {
-    title: "Barra, naranja",
-    price: "CRC 300",
+    image:
+      "https://th.bing.com/th/id/R.5fc1e3d132e4b523c139aa4ccbeaacee?rik=64OmnOJmkTrAXA&pid=ImgRaw&r=0",
   },
   {
     title: "Mani Soldanza",
@@ -212,78 +216,116 @@ const Inventario = [
   {
     title: "Gomitas",
     price: "CRC 200",
+    image:
+      "https://th.bing.com/th/id/R.fdc50749e94b7760da9bc9894499429e?rik=ABLGOW00tSeX7A&pid=ImgRaw&r=0",
   },
   {
     title: "Galletas Maria",
     price: "CRC 200",
+    image:
+      "https://th.bing.com/th/id/R.09b2e0e74532072523d407a0f6c67db9?rik=10xzvxfPX1aZbQ&pid=ImgRaw&r=0",
   },
   {
     title: "Barra Tosh, Lyne",
     price: "CRC 400",
+    image:
+      "https://th.bing.com/th/id/R.56f2e2581d0a31845d3574c3953933ce?rik=V7KHL%2fms1FCM0A&pid=ImgRaw&r=0",
   },
   {
     title: "Barra Tosh, Arandanos y nueces",
     price: "CRC 400",
+    image:
+      "https://metrocolombiafood.vteximg.com.br/arquivos/ids/283650-1000-1000/7702007063707-1.jpg?v=637345704512600000",
   },
   {
     title: "Bizcochos",
     price: "CRC 500",
+    image:
+      "https://www.jacks.co.cr/wp-content/uploads/2021/03/BIZCOCHOS-presentac-pag-web.jpg",
   },
   {
     title: "Galletas, Avena y Granola",
     price: "CRC 350",
+    image:
+      "https://th.bing.com/th/id/R.0b71306225261735f4c44a0c33c40e05?rik=hsnIGSQB8N7GTQ&pid=ImgRaw&r=0",
   },
   {
     title: "Galletas, Soya Vainilla",
     price: "CRC 500",
+    image:
+      "https://th.bing.com/th/id/R.957568654fc5a478fccb28e5394233bb?rik=6dlWZ15lyu9Ysw&riu=http%3a%2f%2f1.bp.blogspot.com%2f_xTPx1IrlS74%2fR11bJ7IyotI%2fAAAAAAAAAA0%2fW6OTTYKMTSM%2fs320%2fgalletas-soya-vainilla.jpg&ehk=XTGQMOb7arhZgxS3uN4%2fWai88Py2VSny%2fYq5Qg4RAzw%3d&risl=&pid=ImgRaw&r=0",
   },
   {
     title: "Trijuelas",
     price: "CRC 300",
+    image:
+      "https://th.bing.com/th/id/OIP.jRH8v6RgUQkAG1bAa7XqEwHaHa?pid=ImgDet&rs=1",
   },
   {
     title: "Poffis",
     price: "CRC 300",
+    image:
+      "https://th.bing.com/th/id/OIP.JSHsPiOnLzqioUlRY-EoGAHaHa?pid=ImgDet&rs=1",
   },
   {
     title: "Naranjitas",
     price: "CRC 300",
+    image:
+      "https://th.bing.com/th/id/R.dea476bca49baf2568e13e513e44dabc?rik=0IWK628MmW%2bycg&riu=http%3a%2f%2ftriquitraque.cr%2fimages%2fthumbs%2f0003769_cereal-naranitas-jacks-170g_510.jpeg&ehk=Mo8eRlW7Hr7vUA6v%2bQOnQ3sJm1HlHimNDYk%2fww5zRMs%3d&risl=&pid=ImgRaw&r=0",
   },
   {
     title: "Trululus",
     price: "CRC 300",
+    image:
+      "https://th.bing.com/th/id/OIP.oadit5j_m5IZwmuJN__BkAHaHa?pid=ImgDet&rs=1",
   },
   {
     title: "Trident(Pequeños)",
     price: "CRC 200",
+    image:
+      "https://www.livingrichwithcoupons.com/wp-content/uploads/trident3.jpg",
   },
   {
     title: "Halls",
     price: "CRC 500",
+    image:
+      "https://th.bing.com/th/id/R.cf79a1a994c9777e1310a4eca268532a?rik=pARD4FnyutnZRg&pid=ImgRaw&r=0",
   },
   {
     title: "Hersheys",
     price: "CRC 200",
+    image:
+      "https://ovrhypd.se/wp-content/uploads/2021/04/HERSHEYS-MILK-CHOCOLATE-43g-600x600.png",
   },
   {
     title: "Trululu, Oro",
     price: "CRC 100",
+    image:
+      "https://www.coopasan.com.co/2216-large_default/trululu-oro-x-90-gr-.jpg",
   },
   {
     title: "Kisses",
     price: "CRC 100",
+    image:
+      "https://th.bing.com/th/id/OIP.4jdD62vKkTY8ULTUHmFrDwHaHa?pid=ImgDet&rs=1",
   },
   {
     title: "Galleta Soda",
     price: "CRC 100",
+    image:
+      "https://disdelsa.com/imagenes/productos/1768-imgS-18-2-2020-155945-.jpg",
   },
   {
     title: "Mentas Gallito",
     price: "CRC 250",
+    image:
+      "https://th.bing.com/th/id/OIP.zWAmAf-FzPzuij5wLOu4AAHaHa?pid=ImgDet&rs=1",
   },
   {
     title: "Violeta Gallito",
     price: "CRC 250",
+    image:
+      "https://cdn.shopify.com/s/files/1/0371/2280/1800/products/violetas_625x625.jpg?v=1587859725",
   },
   {
     title: "Bon Bon",

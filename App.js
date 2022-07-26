@@ -1,6 +1,6 @@
 import * as React from "react";
-import Rootnavigation from "./navigation";
+import RootNavigation from "./navigation";
 
 export default function App() {
-  return <Rootnavigation />;
+  return <RootNavigation />;
 }

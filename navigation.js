@@ -1,10 +1,10 @@
-import { createStackNavigator } from "@react-navigation/stack";
-import { NavigationContainer } from "@react-navigation/native";
 import React from "react";
 import Home from "./screens/Home";
 import CafeteriaDetail from "./screens/CafeteriaDetail";
+import { createStackNavigator } from "@react-navigation/stack";
+import { NavigationContainer } from "@react-navigation/native";
 
-export default function Rootnavigation() {
+export default function RootNavigation() {
   const Stack = createStackNavigator();
 
   const screenOptions = {

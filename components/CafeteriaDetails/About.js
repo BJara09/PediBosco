@@ -1,49 +1,48 @@
 import { View, Text, Image } from "react-native";
 import React from "react";
 
-const CafeteriaInfo = {
+/*const CafeteriaInfo = {
   name: "Soda DonK",
   description: "Rápido · Chifrijo · Batidos",
   image:
     "https://th.bing.com/th/id/OIP.x_bLp2JXWP8HVFl2iyGe4QHaEK?pid=ImgDet&rs=1",
 };
 
-const { name, description, image } = CafeteriaInfo;
+const { name, description, image } = CafeteriaInfo;*/
 
-
-
-export default function About() {
+export default function About(props) {
+  const { name, place, image } = props.route.params;
   return (
     <View>
       <CafeteriaImage image={image} />
       <CafeteriaTitle name={name} />
-          <CafeteriaDescription description={description} />
+      <CafeteriaDescription place={place} />
     </View>
   );
 }
 
 const CafeteriaImage = (props) => {
-    return (
-        <Image
-            source={{ uri: props.image }}
-            style={{ width: "100%", height: 180 }}
-        />
-    );
+  return (
+    <Image
+      source={{ uri: props.image }}
+      style={{ width: "100%", height: 180 }}
+    />
+  );
 };
 
 const CafeteriaTitle = (props) => {
-    return (
-  <Text
-    style={{
-      fontSize: 30,
-      fontWeight: "600",
-      marginTop: 10,
-      marginHorizontal: 15,
-    }}
-  >
-    {props.title}
-  </Text>
-    )
+  return (
+    <Text
+      style={{
+        fontSize: 30,
+        fontWeight: "600",
+        marginTop: 10,
+        marginHorizontal: 15,
+      }}
+    >
+      {props.name}
+    </Text>
+  );
 };
 
 const CafeteriaDescription = (props) => {
@@ -56,7 +55,7 @@ const CafeteriaDescription = (props) => {
         marginHorizontal: 15,
       }}
     >
-      {props.description}
+      {props.place}
     </Text>
   );
 };

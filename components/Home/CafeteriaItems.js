@@ -23,19 +23,31 @@ export const sodas = [
   },
 ];
 
-export default function CafeteriaItem() {
+export default function CafeteriaItem({ navigation, ...props }) {
   return (
-    <TouchableOpacity activeOpacity={1} style={{ marginBottom: 10 }}>
+    <>
       {sodas.map((soda, index) => (
-        <View
-          key={index}
-          style={{ marginTop: 10, padding: 15, backgroundColor: "white" }}
+        <TouchableOpacity
+          activeOpacity={1}
+          style={{ marginBottom: 10 }}
+          onPress={() =>
+            navigation.navigate("CafeteriaDetail", {
+              name: soda.name,
+              place: soda.place,
+              image: soda.image,
+            })
+          }
         >
-          <CafeteriaImage image={soda.image} />
-          <CafeteriaInfo name={soda.name} place={soda.place} />
-        </View>
+          <View
+            key={index}
+            style={{ marginTop: 10, padding: 15, backgroundColor: "white" }}
+          >
+            <CafeteriaImage image={soda.image} />
+            <CafeteriaInfo name={soda.name} place={soda.place} />
+          </View>
+        </TouchableOpacity>
       ))}
-    </TouchableOpacity>
+    </>
   );
 }
 

@@ -4,7 +4,7 @@ import { Divider } from "react-native-elements/dist/divider/Divider";
 import About from "../components/CafeteriaDetails/About";
 import MenuItems from "../components/CafeteriaDetails/MenuItems";
 
-export default function CafeteriaDetail({route}) {
+export default function CafeteriaDetail({ route }) {
   return (
     <View>
       <About route={route} />
